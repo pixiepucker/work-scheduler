@@ -20,142 +20,88 @@
       <p id="currentDay" class="lead"></p>
     </header>
 
-    <div class="container d-flex flex-column">
+    <div class="container d-block">
       <!-- Timeblocks go here -->
       <!--need 9 rows with 3 columns, starting with the row for 0900 ending with row for 1700-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>0900</h4>
-        </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
+      <div id='first' class="row time-block">
+        <div class="col hour"><h4>0900</h4></div>
+          <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+          <button class="col-1 saveBtn" type="button">
             <span class="oi oi-task mb-2"></span>
           </button>
-        </div>
       </div>
         <!--hour 1 end-->
         <!--hour 2 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1000</h4>
+        <div id='second' class="row time-block">
+          <div class="col hour"><h4>1000</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 2 end-->
         <!--hour 3 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1100</h4>
+        <div id='third' class="row time-block">
+          <div class="col hour"><h4>1100</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 3 end-->
         <!--hour 4 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1200</h4>
+        <div id='fourth' class="row time-block">
+          <div class="col hour"><h4>1200</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 4 end-->
         <!--hour 5 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1300</h4>
+        <div id='fifth' class="row time-block">
+          <div class="col hour"><h4>1300</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 5 end-->
         <!--hour 6 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1400</h4>
+        <div id='sixth' class="row time-block">
+          <div class="col hour"><h4>1400</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 6 end-->
         <!--hour 7 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1500</h4>
+        <div id='seventh' class="row time-block">
+          <div class="col hour"><h4>1500</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 7 end-->
         <!--hour 8 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1600</h4>
+        <div id='eighth' class="row time-block">
+          <div class="col hour"><h4>1600</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 8 end-->
         <!--hour 9 start-->
-      <div class="row row-cols-3 justify-content-around">
-        <div class="col hour">
-          <h4>1700</h4>
+        <div id='ninth' class="row time-block">
+          <div class="col hour"><h4>1700</h4></div>
+            <textarea class="col-8 form-control" placeholder="Add an Event"></textarea>
+            <button class="col-1 saveBtn" type="button">
+              <span class="oi oi-task mb-2"></span>
+            </button>
         </div>
-        <div class="col-8 time-block">
-          <textarea class="form-control" placeholder="Add an Event"></textarea>
-        </div>
-        <div class="col">
-          <button class="saveBtn" type="button">
-            <span class="oi oi-task mb-2"></span>
-          </button>
-        </div>
-      </div>
         <!--hour 9 end-->
     </div>
 
