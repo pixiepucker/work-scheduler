@@ -54,7 +54,7 @@ loadEvents();
 $(document).ready (function() {
     //get current time with hours
     var currentTime = moment().hours();
-
+    //loop through each textarea with class '.task'
     $('.task').each(function() {
         //var that holds parsed integer/(textarea)'s id (changed to numbers from strings)
         var eventTime = parseInt($(this).attr('id'));
