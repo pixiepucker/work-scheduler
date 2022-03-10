@@ -17,10 +17,43 @@ $('.saveBtn').on('click', function(event) {
     localStorage.setItem(eventTime, JSON.stringify(eventText));
 });
 
-//load items through localStorage getItem, 
-function loadEvents() {
+//load items through localStorage getItem, use id on top-level div and id on textarea
+function loadEvents () {
+    //create var to hold parsed string attached to 0900 div
+    var eventHour1 = JSON.parse(localStorage.getItem('0900'));
+    //pass event... var into .val to load in according to time div ex. 0900 1000 etc.
+    $('#first').val(eventHour1);
+
+    var eventHour2 = JSON.parse(localStorage.getItem('1000'));
+    $('#second').val(eventHour2);
+
+    var eventHour3 = JSON.parse(localStorage.getItem('1100'));
+    $('#third').val(eventHour3);
+
+    var eventHour4 = JSON.parse(localStorage.getItem('1200'));
+    $('#fourth').val(eventHour4);
+
+    var eventHour5 = JSON.parse(localStorage.getItem('1300'));
+    $('#fifth').val(eventHour5);
+
+    var eventHour6 = JSON.parse(localStorage.getItem('1400'));
+    $('#sixth').val(eventHour6);
+
+    var eventHour7 = JSON.parse(localStorage.getItem('1500'));
+    $('#seventh').val(eventHour7);
+
+    var eventHour8 = JSON.parse(localStorage.getItem('1600'));
+    $('#eighth').val(eventHour8);
+
+    var eventHour9 = JSON.parse(localStorage.getItem('1700'));
+    $('#ninth').val(eventHour9);
 
 };
+//call function to load in events
+loadEvents();
+
+
+
 
 
 
