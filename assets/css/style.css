@@ -26,9 +26,9 @@ p {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(185, 49, 113);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
 }
 
 .description{
@@ -47,23 +47,23 @@ p {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #ffebf2;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #cfbcc5;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #d83076;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #adffad;
   color: white;
 }
 
@@ -71,7 +71,7 @@ p {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #ff6dbd;
   color: white;
 }
 
@@ -82,4 +82,8 @@ p {
 
 .form-control {
   border:none;
+}
+
+#currentDay {
+  color: #d83076;
 }
